@@ -1,6 +1,8 @@
 
-name: Build X-VOID
-
+      - name: Build with Gradle
+        run: |
+          cd X-VOID-1.21.1
+          gradle build
 on:
   workflow_dispatch:
   push:
